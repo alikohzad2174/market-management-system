@@ -1,6 +1,6 @@
 # WholeSale Market Management System
 
-A university market management system for managing products, customers, suppliers, purchases, sales, stock, ledgers, reports, staff, and authentication.
+A university full-stack market management system for managing products, customers, suppliers, purchases, sales, stock, ledgers, reports, staff, and authentication.
 
 ## Tech Stack
 
@@ -21,38 +21,34 @@ A university market management system for managing products, customers, supplier
 
 ## Project Structure
 
-```text
 WholeSale/
   frontEnd/          React frontend
   market_database/  Django backend
-```
 
 ## Run Frontend
 
-```bash
 cd frontEnd
 npm install
 npm run dev
-```
 
 ## Run Backend
 
-```bash
 cd market_database
+pip install -r requirements.txt
 python manage.py runserver
-```
 
 Before running the backend, update the MySQL database name, user, and password in:
 
-```text
 market_database/market_database/settings.py
-```
+
 ## Team Members
 
 This project was developed collaboratively by three Computer Science students as part of our university coursework.
 
-- Ahmad Ali Yaqin
-- Khosrow Samadi
-- AbdulRahman Rahimi
+- [Ahmad Ali Yaqin](https://github.com/alikohzad2174)
+- [Khosrow Samadi](https://github.com/Khosrow-hub)
+- [Abdul Rahman Rahimi](https://github.com/Abdulrahman-909)
 
+## Ownership
 
+This project was developed for educational purposes as a university coursework project.
