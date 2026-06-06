@@ -47,7 +47,12 @@ Before running the backend, update the MySQL database name, user, and password i
 ```text
 market_database/market_database/settings.py
 ```
+## Team Members
 
-## Notes
+This project was developed collaboratively by three Computer Science students as part of our university coursework.
 
-This project is built for educational purposes. Local environment files, virtual environments, uploaded media, and dependency folders are ignored from GitHub.
+- Ahmad Ali Yaqin
+- Khosrow Samadi
+- AbdulRahman Rahimi
+
+
